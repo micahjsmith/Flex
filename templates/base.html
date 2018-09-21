@@ -105,6 +105,7 @@
       {% if pages or LINKS %}
       <nav>
         <ul class="list">
+          <li><a href="{{ SITEURL }}/{{ INDEX_URL }}">blog</a></li>
           {% if not PAGES_SORT_ATTRIBUTE -%}
               {% set PAGES_SORT_ATTRIBUTE = 'title' %}
           {%- endif %}
